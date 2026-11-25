@@ -1,12 +1,13 @@
 import { mkdirSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 
-// The GPS, caught red-handed, blaming the map: it insists the wrong road
-// was a shortcut, then the turn lands — the map "forgot" the lake, the
-// wedding, and the one small detail that the car can't swim. Smug,
-// defensive, one breath, and the punchline is the last clause.
+// The GPS speaks for itself, first person, smug and defensive: it never
+// took a wrong turn, it took a shortcut — then the turn lands on the map,
+// which "forgot" the lake, the wedding, and the one small detail that the
+// car can't swim. The punchline is the last clause, the blame stays on
+// the map, and the whole excuse reads aloud in one breath.
 const line =
-  "That wasn't a wrong turn, it was a shortcut — the map just forgot the lake, the wedding, and that your car can't swim.";
+  "I didn't take a wrong turn, I took a shortcut — the map just forgot the lake, the wedding, and that your car can't swim.";
 
 // Gate: the bounty only judges one line of 1-200 characters, not blank.
 if (
